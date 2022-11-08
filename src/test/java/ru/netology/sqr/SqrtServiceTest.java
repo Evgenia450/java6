@@ -4,7 +4,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class SQRServiceTest {
+public class SqrtServiceTest {
 
     @ParameterizedTest
     @CsvFileSource(files="src/test/resources/list.csv")
